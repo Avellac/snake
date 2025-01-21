@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Cobra</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="main">
+        <canvas id="gc" width="600" height="600"></canvas>
+        <div class="record1" id="record_1">0</div>
+        <div class="record2" id="record_2">0</div>
+        <p>
+            Size screen:&nbsp
+            <button id="size_scr" onclick="scrNormal()">Normal</button>
+            &nbsp &nbsp &nbsp &nbsp &nbsp
+            Players:&nbsp
+            <button id="players" onclick="numberPlayers()">1 player</button> 
+            &nbsp &nbsp &nbsp &nbsp &nbsp
+            <input type="checkbox" name="limited" id="limited" checked>  
+            <label for="limited">Limited borders</label> 
+        </p>
+        <h1>&copy; LAC Divertimentos</h1>
+    </div>
+    <script src="script.js"></script>
+    <script type="text/javascript" src="buttons.js"></script>
+    <script src="joystick.js"></script>
+    <script src="move.js"></script>
+    <script src="colision.js"></script>
+    <script src="fase.js"></script>
+    <script src="food.js"></script>
+    <script>
+        
+    </script>
+</body>
+</html>

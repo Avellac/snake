@@ -1,0 +1,31 @@
+#main{
+    width: 600px;
+    text-align: center;
+}
+
+div h1{
+    padding: 20px;
+    font-size:20px;
+    font-style: italic;
+    color: brown;
+}
+
+.record1{
+    top: 2%;
+    font-size: 50px;
+    color: rgb(0, 255, 0);
+    position: absolute;
+    left: 30px;
+}
+
+.record2{
+    top: 2%;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 563px;
+}
+
+/* Colors
+'aqua', 'black', 'blue', 'fuchsia', 'gray', 'green', 'lime', 'maroon', 'navy', 
+'olive', 'orange', 'purple', 'red', 'silver', 'teal', 'white', 'yellow' */
