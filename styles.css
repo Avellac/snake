@@ -26,6 +26,11 @@ div h1{
     left: 563px;
 }
 
+.imagem {
+    margin:auto;
+    width:30%;
+}
+
 /* Colors
 'aqua', 'black', 'blue', 'fuchsia', 'gray', 'green', 'lime', 'maroon', 'navy', 
 'olive', 'orange', 'purple', 'red', 'silver', 'teal', 'white', 'yellow' */
